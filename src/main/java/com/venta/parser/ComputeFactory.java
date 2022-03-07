@@ -15,7 +15,7 @@ public final class ComputeFactory {
     }
 
     public static BigDecimal compute(final Node tree) {
-        return BigDecimal.ZERO;
+        return new ComputeBuilder().compute(tree);
     }
 
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
