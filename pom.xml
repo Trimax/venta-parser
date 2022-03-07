@@ -80,7 +80,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <configLocation>../checkstyle.xml</configLocation>
+                    <configLocation>checkstyle.xml</configLocation>
                     <logViolationsToConsole>true</logViolationsToConsole>
                     <consoleOutput>true</consoleOutput>
                     <failOnViolation>true</failOnViolation>
